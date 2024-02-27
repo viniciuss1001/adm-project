@@ -1,16 +1,17 @@
 import { Link } from 'react-router-dom'
-import admLogo from '../assets/admLogo.png'
-import { Logo, NavbarButtons, NavbarContainer, NavbarLinks, RegisterBtn } from './Styles'
-import { PersonSimple } from '@phosphor-icons/react'
+import admLogo from '../../assets/admLogo.png'
+import { LoginBtn, Logo, NavbarButtons, NavbarContainer, NavbarLinks, RegisterBtn } from './Styles'
+import {SignIn, UserCirclePlus } from '@phosphor-icons/react'
 
 export function NavbarAdm() {
   return (
     <NavbarContainer>
-      <Link to='/'>
       <Logo>
+      <Link to='/'>
         <img src={admLogo} alt="Administração" />
-      </Logo>
       </Link>
+        <span>2020-2022</span>
+      </Logo>
       
       <NavbarLinks>
         <Link to='/'>Turma</Link>
@@ -21,8 +22,13 @@ export function NavbarAdm() {
       <NavbarButtons>
         <RegisterBtn>
           Criar Conta 
-          <PersonSimple />
+          <UserCirclePlus />
         </RegisterBtn>
+
+        <LoginBtn>
+          Entrar
+          <SignIn />
+        </LoginBtn>
       </NavbarButtons>
     </NavbarContainer>
   )
