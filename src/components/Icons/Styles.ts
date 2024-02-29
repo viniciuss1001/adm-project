@@ -22,8 +22,8 @@ export const IconCard = styled.div`
      background-color: none;
 
      img{
-          width: 8rem;
-          height: 8rem;
+          width: 5rem;
+          height: 5rem;
           
           display: flex;
           margin: 0 auto;
@@ -31,9 +31,10 @@ export const IconCard = styled.div`
 
      p{
                font-size: 2rem;
-               font-weight: 600;
+               font-weight: 500;
                text-align: center;
                text-decoration: none;
+               font-size: 'Poppins', sans-serif;
                color: ${props => props.theme['gray-900']};
      }
 

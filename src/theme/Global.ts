@@ -17,7 +17,7 @@ export const GlobalStyle = createGlobalStyle`
 body{
     background-color: ${props => props.theme['gray-900']};
     color: ${props => props.theme['gray-300']};
-    font-family: 'Roboto';
+    font-family: 'Poppins';
     -webkit-font-smoothing: antialiased;
 }
 body, input-security, textarea, button{
