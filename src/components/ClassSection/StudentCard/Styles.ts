@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StudentCardContainer = styled.div`
-     width: 30%;
+     width: auto;
      height: 14rem;
 
      border: 1px solid ${props => props.theme['gray-300']};
