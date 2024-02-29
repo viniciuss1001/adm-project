@@ -1,0 +1,3 @@
+export const AboutFooterText = ' Bem-vindo ao nosso espaço dedicado à turma de administração! Aqui, celebramos a união, a alegria e a integridade que definiram nossa jornada acadêmica. Somos mais que colegas, somos uma família que compartilhou risos, desafios e conquistas. Este site é uma homenagem à nossa turma extraordinária, destacando os laços que nos unem e as memórias que tornaram nossa jornada única. Juntos, somos a expressão viva do espírito íntegro e vibrante que moldou nossa experiência na administração. Vamos relembrar, celebrar e honrar cada momento que fez parte dessa incrível jornada.'
+
+export const CopyText = 'Todos os direitos reservados a ViniciusFrota°2024'
