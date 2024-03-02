@@ -19,13 +19,13 @@ export const Logo = styled.div`
      width: 50%;
      height: 90%;
 
-     padding: 0.25rem;
+     padding: 0.25rem 1rem 0.25rem 3rem;
      border-radius: 8px;
-     margin-left: 1rem;
+     margin-left: -1rem;
      
      display: flex;
      align-items: center;
-     background-color: none;
+     background-color: #fff;
 
      img{
           width: 7rem;
@@ -50,10 +50,10 @@ export const Logo = styled.div`
           align-self: flex-start;
 
           font-size: 2rem;
-          color: #fff;
+          color: ${props => props.theme['global']};
           text-decoration: none;
-          margin: 2rem auto 0 0;
-     }
+          margin: 2rem auto auto 1rem ;
+          }
 `
 export const NavbarLinks = styled.div`
      width: 80%;

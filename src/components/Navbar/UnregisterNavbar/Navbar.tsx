@@ -1,9 +1,9 @@
 import { Link } from 'react-router-dom'
-import admLogo from '../../assets/admLogo.png'
+import admLogo from '../../../assets/admLogo.png'
 import { LoginBtn, Logo, NavbarButtons, NavbarContainer, NavbarLinks, RegisterBtn } from './Styles'
 import {SignIn, UserCirclePlus } from '@phosphor-icons/react'
 
-export function NavbarAdm() {
+export function UnregisterNavbar() {
   return (
     <NavbarContainer>
       <Logo>
