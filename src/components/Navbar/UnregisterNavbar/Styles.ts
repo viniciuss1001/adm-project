@@ -1,5 +1,5 @@
 import styled from "styled-components";
-
+import * as Dialog from '@radix-ui/react-dialog'
 
 export const NavbarContainer = styled.header`
      width: 100%;
@@ -91,7 +91,7 @@ export const NavbarButtons = styled.div`
 `
 
 
-export const RegisterBtn = styled.button`
+export const RegisterBtn = styled(Dialog.Trigger)`
 
      width: fit-content;
      padding: 0.75rem 1rem;
